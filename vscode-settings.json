@@ -227,7 +227,7 @@
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "#87CEFA",
   "vim.highlightedyank.textColor": "#000000",
-  "vim.highlightedyank.duration": 200,
+  "vim.highlightedyank.duration": 150,
   "vim.insertModeKeyBindings": [
     {
       "before": [
@@ -315,6 +315,26 @@
         "N",
         "z",
         "z"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.findInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "b"
+      ],
+      "commands": [
+        "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
       ]
     },
     {
@@ -890,4 +910,6 @@
   "vim.cursorStylePerMode.visualblock": "block",
   "vim.cursorStylePerMode.visualline": "block",
   "editor.suggest.showStatusBar": true,
+  "editor.cursorStyle": "block",
+  "editor.occurrencesHighlight": "off",
 }
