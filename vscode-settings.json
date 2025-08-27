@@ -94,7 +94,7 @@
     "editor.accessibilitySupport": "off",
     "workbench.layoutControl.enabled": false,
     "tabnine.experimentalAutoImports": true,
-    "editor.fontFamily": "FiraCode",
+    // "editor.fontFamily": "",
     "editor.fontLigatures": false,
     "liveServer.settings.donotVerifyTags": true,
     "editor.semanticTokenColorCustomizations": {},
