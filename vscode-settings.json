@@ -4,60 +4,66 @@
     "editorCursor.foreground": "#FFFFFF",
     "editor.background": "#141423",
     "tab.activeBorder": "#ffffff",
+    "statusBar.background": "#141423",
+    "statusBar.noFolderBackground": "#141423",
     "tab.activeBorderTop": "default",
-    "[Vira*]": {
-      "statusBar.debuggingBackground": "#80CBC433",
-      "statusBar.debuggingForeground": "#80CBC4",
-      "toolbar.activeBackground": "#80CBC426",
-      "button.background": "#80CBC4",
-      "button.hoverBackground": "#80CBC4cc",
-      "extensionButton.separator": "#80CBC433",
-      "extensionButton.background": "#80CBC414",
-      "extensionButton.foreground": "#80CBC4",
-      "extensionButton.hoverBackground": "#80CBC433",
-      "extensionButton.prominentForeground": "#80CBC4",
-      "extensionButton.prominentBackground": "#80CBC414",
-      "extensionButton.prominentHoverBackground": "#80CBC433",
-      "activityBarBadge.background": "#80CBC4",
-      "activityBar.activeBorder": "#80CBC4",
-      "activityBarTop.activeBorder": "#80CBC4",
-      "list.inactiveSelectionIconForeground": "#80CBC4",
-      "list.activeSelectionForeground": "#80CBC4",
-      "list.inactiveSelectionForeground": "#80CBC4",
-      "list.highlightForeground": "#80CBC4",
-      "sash.hoverBorder": "#80CBC480",
-      "list.activeSelectionIconForeground": "#80CBC4",
-      "scrollbarSlider.activeBackground": "#80CBC480",
-      "editorSuggestWidget.highlightForeground": "#80CBC4",
-      "textLink.foreground": "#80CBC4",
-      "progressBar.background": "#80CBC4",
-      "pickerGroup.foreground": "#80CBC4",
-      "tab.activeBorder": "#80CBC4",
-      "tab.activeBorderTop": "#80CBC400",
-      "tab.unfocusedActiveBorder": "#80CBC4",
-      "tab.unfocusedActiveBorderTop": "#80CBC400",
-      "tab.activeModifiedBorder": "#80CBC400",
-      "notificationLink.foreground": "#80CBC4",
-      "editorWidget.resizeBorder": "#80CBC4",
-      "editorWidget.border": "#80CBC4",
-      "settings.modifiedItemIndicator": "#80CBC4",
-      "panelTitle.activeBorder": "#80CBC4",
-      "breadcrumb.activeSelectionForeground": "#80CBC4",
-      "menu.selectionForeground": "#80CBC4",
-      "menubar.selectionForeground": "#80CBC4",
-      "editor.findMatchBorder": "#80CBC4",
-      "selection.background": "#80CBC440",
-      "statusBarItem.remoteBackground": "#80CBC414",
-      "statusBarItem.remoteHoverBackground": "#80CBC4",
-      "statusBarItem.remoteForeground": "#80CBC4",
-      "notebook.inactiveFocusedCellBorder": "#80CBC480",
-      "commandCenter.activeBorder": "#80CBC480",
-      "chat.slashCommandForeground": "#80CBC4",
-      "chat.avatarForeground": "#80CBC4",
-      "activityBarBadge.foreground": "#000000",
-      "button.foreground": "#000000",
-      "statusBarItem.remoteHoverForeground": "#000000"
+    "vim.neovimExecutablePaths": {
+      "linux": "/usr/bin/nvim",
+      "windows": "C:\\Program Files\\Neovim\\bin\\nvim.exe"
     }
+    // "[Vira*]": {
+    //   "statusBar.debuggingBackground": "#80CBC433",
+    //   "statusBar.debuggingForeground": "#80CBC4",
+    //   "toolbar.activeBackground": "#80CBC426",
+    //   "button.background": "#80CBC4",
+    //   "button.hoverBackground": "#80CBC4cc",
+    //   "extensionButton.separator": "#80CBC433",
+    //   "extensionButton.background": "#80CBC414",
+    //   "extensionButton.foreground": "#80CBC4",
+    //   "extensionButton.hoverBackground": "#80CBC433",
+    //   "extensionButton.prominentForeground": "#80CBC4",
+    //   "extensionButton.prominentBackground": "#80CBC414",
+    //   "extensionButton.prominentHoverBackground": "#80CBC433",
+    //   "activityBarBadge.background": "#80CBC4",
+    //   "activityBar.activeBorder": "#80CBC4",
+    //   "activityBarTop.activeBorder": "#80CBC4",
+    //   "list.inactiveSelectionIconForeground": "#80CBC4",
+    //   "list.activeSelectionForeground": "#80CBC4",
+    //   "list.inactiveSelectionForeground": "#80CBC4",
+    //   "list.highlightForeground": "#80CBC4",
+    //   "sash.hoverBorder": "#80CBC480",
+    //   "list.activeSelectionIconForeground": "#80CBC4",
+    //   "scrollbarSlider.activeBackground": "#80CBC480",
+    //   "editorSuggestWidget.highlightForeground": "#80CBC4",
+    //   "textLink.foreground": "#80CBC4",
+    //   "progressBar.background": "#80CBC4",
+    //   "pickerGroup.foreground": "#80CBC4",
+    //   "tab.activeBorder": "#80CBC4",
+    //   "tab.activeBorderTop": "#80CBC400",
+    //   "tab.unfocusedActiveBorder": "#80CBC4",
+    //   "tab.unfocusedActiveBorderTop": "#80CBC400",
+    //   "tab.activeModifiedBorder": "#80CBC400",
+    //   "notificationLink.foreground": "#80CBC4",
+    //   "editorWidget.resizeBorder": "#80CBC4",
+    //   "editorWidget.border": "#80CBC4",
+    //   "settings.modifiedItemIndicator": "#80CBC4",
+    //   "panelTitle.activeBorder": "#80CBC4",
+    //   "breadcrumb.activeSelectionForeground": "#80CBC4",
+    //   "menu.selectionForeground": "#80CBC4",
+    //   "menubar.selectionForeground": "#80CBC4",
+    //   "editor.findMatchBorder": "#80CBC4",
+    //   "selection.background": "#80CBC440",
+    //   "statusBarItem.remoteBackground": "#80CBC414",
+    //   "statusBarItem.remoteHoverBackground": "#80CBC4",
+    //   "statusBarItem.remoteForeground": "#80CBC4",
+    //   "notebook.inactiveFocusedCellBorder": "#80CBC480",
+    //   "commandCenter.activeBorder": "#80CBC480",
+    //   "chat.slashCommandForeground": "#80CBC4",
+    //   "chat.avatarForeground": "#80CBC4",
+    //   "activityBarBadge.foreground": "#000000",
+    //   "button.foreground": "#000000",
+    //   "statusBarItem.remoteHoverForeground": "#000000"
+    // }
   },
   "code-runner.runInTerminal": true,
   "C_Cpp.errorSquiggles": "enabled",
@@ -88,11 +94,11 @@
   "editor.accessibilitySupport": "off",
   "workbench.layoutControl.enabled": false,
   "tabnine.experimentalAutoImports": true,
-  // "editor.fontFamily": "",
+  "editor.fontFamily": "FiraCode",
   "editor.fontLigatures": false,
   "liveServer.settings.donotVerifyTags": true,
   "editor.semanticTokenColorCustomizations": {},
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "solid",
   "terminal.integrated.cursorStyle": "line",
   "settingsSync.ignoredSettings": [],
   "editor.mouseWheelZoom": true,
@@ -103,13 +109,12 @@
     "borderColor": "white",
     "borderWidth": "1px",
   },
-  "editor.suggest.showStatusBar": true,
   "debug.console.acceptSuggestionOnEnter": "on",
   "editor.tabCompletion": "on",
   "workbench.editorAssociations": {
     "*.pdf": "pdf.preview"
   },
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "Git Bash": {
@@ -254,12 +259,47 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
+        "<leader>",
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
         "N",
       ],
       "after": [
         "N",
         "z",
         "z"
+      ]
+    },
+    {
+      "before": [
+        "s"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "<leader>",
+        "b",
+        "d",
+        "j",
+        "k"
       ]
     },
     {
@@ -492,8 +532,76 @@
         "workbench.action.navigateRight"
       ]
     },
+    {
+      "before": [
+        "leader",
+        "r",
+        "n"
+      ],
+      "commands": [
+        "fileutils.renameFile",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "N"
+      ],
+      "commands": [
+        "fileutils.newFileAtRoot",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "n"
+      ],
+      "commands": [
+        "fileutils.newFile",
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "y",
+        "n"
+      ],
+      "commands": [
+        "fileutils.copyFileName"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "y",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.files.copyPathOfActiveFile"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "f",
+        "m"
+      ],
+      "commands": [
+        "editor.action.format",
+      ]
+    },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "s"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "s"
+      ]
+    },
     {
       "before": [
         "<C-j>"
@@ -512,13 +620,13 @@
     },
     {
       "before": [
-        "<Leader>",
+        "<leader>",
         "l"
       ],
       "after": [
-        "<Leader>",
-        "<Leader>",
-        "<Leader>",
+        "<leader>",
+        "<leader>",
+        "<leader>",
         "b",
         "d",
         "j",
@@ -568,14 +676,6 @@
         "5",
         "g",
         "k",
-      ]
-    },
-    {
-      "before": [
-        "s"
-      ],
-      "after": [
-        "S",
       ]
     },
     {
@@ -721,7 +821,7 @@
   },
   "vsc-leetcode.storagePath": "/home/ankit/MonoLisa",
   "C_Cpp.default.compilerPath": "/usr/bin/gcc",
-  "workbench.colorTheme": "Vira Ocean High Contrast",
+  "workbench.colorTheme": "Deep Ocean - Blue",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "leetcode.workspaceFolder": "/home/ankit/.leetcode",
@@ -735,11 +835,19 @@
   "window.commandCenter": false,
   "files.autoSave": "afterDelay",
   "git.openRepositoryInParentFolders": "never",
-  "editor.fontSize": 15,
-  "terminal.integrated.fontFamily": "Noto Mono",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontFamily": "FiraCode",
   "remote.defaultExtensionsIfInstalledLocally": [
     "GitHub.copilot",
     "GitHub.copilot-chat",
     "GitHub.vscode-pull-request-github"
   ],
+  "gruvboxMaterial.darkCursor": "yellow",
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "underline",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.cursorStylePerMode.visualblock": "block",
+  "vim.cursorStylePerMode.visualline": "block",
+  "editor.suggest.showStatusBar": true,
 }
