@@ -812,11 +812,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+f",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+up",
         "command": "editor.action.insertCursorAbove",
         "when": "editorTextFocus"
