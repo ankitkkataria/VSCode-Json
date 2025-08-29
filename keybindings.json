@@ -822,21 +822,21 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+m",
+        "key": "ctrl+\\",
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "terminalFocus || textInputFocus ||"
     },
     {
-        "key": "ctrl+m",
+        "key": "ctrl+\\",
         "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
-        "key": "ctrl+m",
+        "key": "ctrl+\\",
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "terminal.active || terminal.visible || terminalEditorFocus || terminalFocus || terminalTextSelected || textInputFocus || view.terminal.visible "
     },
     {
-        "key": "ctrl+m",
+        "key": "ctrl+\\",
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "terminal.active || terminal.visible || terminalEditorFocus || terminalFocus || terminalTextSelected || textInputFocus || view.terminal.visible"
     },
