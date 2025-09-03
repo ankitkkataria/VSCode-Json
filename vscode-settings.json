@@ -827,7 +827,7 @@
     "window.commandCenter": false,
     "files.autoSave": "afterDelay",
     "git.openRepositoryInParentFolders": "never",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "terminal.integrated.fontFamily": "FiraCode",
     "remote.defaultExtensionsIfInstalledLocally": [
         "GitHub.copilot",
@@ -845,4 +845,24 @@
     "editor.cursorStyle": "block",
     "editor.occurrencesHighlight": "off",
     "editor.cursorSurroundingLines": 6,
+    "oneDarkPro.italic": false,
+    "gruvboxMaterial.italicComments": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "entity.name.type",
+                    "entity.other.inherited-class",
+                    "keyword.control",
+                    "markup.italic",
+                    "storage.type",
+                    "variable.language"
+                ],
+                "settings": {
+                    "fontStyle": "" 
+                }
+            }
+        ]
+    },
 }
