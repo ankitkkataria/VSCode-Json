@@ -49,11 +49,11 @@
         "when": "terminal.active"
     },
     {
-        "key": "ctrl+oem_7",
+        "key": "ctrl+shift+n",
         "command": "terminalHere.create"
     },
     {
-        "key": "ctrl+oem_3",
+        "key": "ctrl+q",
         "command": "workbench.action.terminal.kill"
     },
     {
@@ -823,9 +823,35 @@
     },
     {
         "key": "ctrl+m",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "terminal.active || terminal.visible || terminalEditorFocus || terminalFocus || terminalTextSelected || textInputFocus || view.terminal.visible || filesExplorerFocus"
+        "command": "workbench.view.explorer",
+        "when": "( !sideBarVisible || ( sideBarVisible && !filesExplorerFocus ) ) && ( terminalFocus || terminalEditorFocus || editorTextFocus || textInputFocus )"
     },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarFocus"
+    },
+    // {
+    // {
+    //     "key": "ctrl+m",
+    //     "command": "workbench.view.explorer",
+    //     "when": "!sideBarVisible"
+    // },
+    // {
+    //     "key": "ctrl+m",
+    //     "command": "workbench.view.explorer",
+    //     "when": "sideBarVisible && !filesExplorerFocus"
+    // },
+    // {
+    //     "key": "ctrl+m",
+    //     "command": "workbench.action.toggleSidebarVisibility",
+    //     "when": "filesExplorerFocus"
+    // },
+    // {
+    //     "key": "ctrl+m",
+    //     "command": "workbench.action.toggleSidebarVisibility",
+    //     "when": "terminal.active || terminal.visible || terminalEditorFocus || terminalFocus || terminalTextSelected || textInputFocus || view.terminal.visible || filesExplorerFocus"
+    // },
     {
         "key": "alt+n",
         "command": "workbench.action.previousEditor"
@@ -968,5 +994,19 @@
     {
         "key": "ctrl+alt+tab",
         "command": "-extension.goto-previous-buffer"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-extension.vim_winCtrlQ",
+        "when": "editorTextFocus && vim.active && vim.use<C-q> && !inDebugRepl"
     }
 ]
