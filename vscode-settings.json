@@ -904,7 +904,8 @@
                     "keyword.control",
                     "markup.italic",
                     "storage.type",
-                    "variable.language"
+                    "variable.language",
+                    "variable.parameter",
                 ],
                 "settings": {
                     "fontStyle": ""
