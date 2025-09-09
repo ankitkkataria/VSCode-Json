@@ -120,7 +120,7 @@
     "workbench.editorAssociations": {
         "*.pdf": "pdf.preview"
     },
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "never",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.profiles.windows": {
         "Git Bash": {
@@ -852,6 +852,7 @@
     "vim.handleKeys": {
         "<C-w>": false,
         "<C-p>": false,
+        "<C-b>": false,
     },
     // To improve performance
     "extensions.experimental.affinity": {
@@ -908,13 +909,31 @@
             {
                 "scope": [
                     "comment",
+                    "comment.block",
+                    "comment.line",
                     "entity.name.type",
                     "entity.other.inherited-class",
+                    "keyword",
                     "keyword.control",
-                    "markup.italic",
+                    "keyword.control.flow",
+                    "keyword.other",
+                    "storage",
                     "storage.type",
+                    "storage.modifier",
+                    "markup.italic",
                     "variable.language",
                     "variable.parameter",
+                    "variable.other",
+                    "variable.name",
+                    "entity.name.variable",
+                    "meta.embedded.block",
+                    "variable.other.readwrite",
+                    "support.variable",
+                    "string.quoted.double.html",
+                    "meta.tag.inline.any.html",
+                    "meta.interpolation.template",
+                    "constant.language",
+                    "keyword.operator"
                 ],
                 "settings": {
                     "fontStyle": ""
