@@ -824,7 +824,7 @@
     {
         "key": "ctrl+m",
         "command": "workbench.view.explorer",
-        "when": "( !sideBarVisible || ( sideBarVisible && !filesExplorerFocus ) ) && ( terminalFocus || terminalEditorFocus || editorTextFocus || textInputFocus )"
+        "when": "( !sideBarVisible || ( sideBarVisible && !filesExplorerFocus ) ) && ( terminalFocus || terminalEditorFocus || editorTextFocus || textInputFocus || !editorIsOpen )"
     },
     {
         "key": "ctrl+m",
